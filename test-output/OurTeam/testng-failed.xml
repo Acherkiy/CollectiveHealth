@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [OurTeam]" parallel="none">
+  <test name="Test2(failed)" parallel="none">
+    <classes>
+      <class name="com.qa.cohealth1.test.TC001_OurTeamTest">
+        <methods>
+          <include name="SetUp"/>
+          <include name="verifyOurTeamLink"/>
+          <include name="TearDown"/>
+        </methods>
+      </class> <!-- com.qa.cohealth1.test.TC001_OurTeamTest -->
+    </classes>
+  </test> <!-- Test2(failed) -->
+</suite> <!-- Failed suite [OurTeam] -->

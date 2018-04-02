@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="OurMission Suite" parallel="none">
+  <test name="Test4">
+    <classes>
+      <class name="com.qa.cohealth1.test.ourMission.TC01_OurMissionTest"/>
+    </classes>
+  </test> <!-- Test4 -->
+</suite> <!-- OurMission Suite -->

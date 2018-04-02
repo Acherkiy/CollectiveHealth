@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.qa.cohealth1.test.TC002_OurTeamTest">
+        <methods>
+          <include name="SetUp"/>
+          <include name="TearDown"/>
+        </methods>
+      </class> <!-- com.qa.cohealth1.test.TC002_OurTeamTest -->
+      <class name="com.qa.cohealth1.test.TC001_OurTeamTest">
+        <methods>
+          <include name="verifyOurTeamLink"/>
+        </methods>
+      </class> <!-- com.qa.cohealth1.test.TC001_OurTeamTest -->
+      <class name="com.qa.cohealth1.test.ourMission.TC01_OurMissionTest">
+        <methods>
+          <include name="verifyOurMissionLink"/>
+        </methods>
+      </class> <!-- com.qa.cohealth1.test.ourMission.TC01_OurMissionTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
